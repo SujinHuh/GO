@@ -107,7 +107,7 @@
 <!--    </select>-->
 
     <select id="getGatherData" parameterType="java.util.HashMap"  resultType="EHS.MonitoringSystem.vo.RealTimeSensorDataVO">
-        SELECT DISTINCT *
+        SELECT DISTINCT *i
         FROM (
         SELECT  SensorID as sensorId,
                 concat(WindDirection, ' °')   as  windDir,
